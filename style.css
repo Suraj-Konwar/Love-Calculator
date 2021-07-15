@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: Homogenic;
+	src: url(fonts/Homogenic.ttf);
+}
+body{
+    background-color: lightpink;
+}
+.card {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%)translateY(-50%);
+	background-image: radial-gradient( circle 422px at -10.3% 110.7%,  rgba(219,76,180,1) 9.5%, rgba(231,119,209,1) 50.8%, rgba(255,180,241,1) 88.5% );
+	height: 430px;
+	border-radius: 10px;
+	width: 520px;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.f-box{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+h1 {
+	margin-right:20px;
+	text-align: center;
+	font-size: 3.5rem;
+	color: #DA0037;
+	font-family: Homogenic;
+}
+h3{
+	font-size: 2rem;
+	color: #DA0037;
+}	
+h2 {
+	margin: 15px;
+	font-family: cambria;
+	color: #DA0037;
+}	
+label{
+	width: 80%;
+	font-size: 18px;
+	font-family: cambria;
+	color: #DA0037;
+}	
+input {
+	border: none;
+	outline: none;
+	margin-left: 3px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	height: 30px;
+	width: 70%;
+	padding: 10px;
+	color: red;
+	border-radius:18px;
+	transition: 0.3s;
+}
+input:hover{
+	width: 73%;
+	font-size: 14px;
+}
+button{
+	border: none;
+	border-radius:16px;
+	width: 200px;
+	color: red;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	font-size: 28px;
+	padding: 12px 16px;
+	margin-top: 15px;
+	transition: 0.3s;
+}
+button:hover{
+	width: 220px;
+	background-color: red;
+	color: white;
+}
+img{
+	width: 90px;
+	height: 90px;
+}
